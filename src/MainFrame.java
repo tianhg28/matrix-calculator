@@ -42,7 +42,7 @@ public class MainFrame extends JFrame implements ActionListener {
         
         //Set Background
         try {
-            this.setContentPane(new JLabel(new ImageIcon(ImageIO.read(new File("graybg.jpg")))));
+            this.setContentPane(new JLabel(new ImageIcon(ImageIO.read(new File("../img/graybg.jpg")))));
         } catch (IOException e) {
             e.printStackTrace();
         }
