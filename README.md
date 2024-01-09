@@ -12,8 +12,16 @@ The Matrix Calculator is a Java Swing-based application designed to perform vari
 
 ## How to Run
 1. **Prerequisites**: Ensure you have Java and Java Swing installed on your machine.
-2. **Download and Compile**: Download the `.java` files and compile them using a Java compiler.
-3. **Execute the Main Class**: Run the `MainFrame` class to start the application.
+2. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/tianhg28/matrix-calculator
+   cd matrix-calculator/src
+   ```
+3. **Run the Application**:
+   ```bash
+   javac MainFrame.java
+   java MainFrame
+   ```
 
 ## Usage
 1. Start the application by running the `MainFrame` class.
